@@ -31,7 +31,7 @@ jobs:
           haxelib install hscript --quiet
           haxelib install flixel-addons --quiet
           haxelib git faxe https://github.com/uhrobots/faxe.git
-          haxelib git polymod https://github.com/mcagabe19/polymod-for-steve.git
+          haxelib git polymod https://github.com/MasterEric/polymod.git
           haxelib set openfl 9.1.0
           haxelib set lime 7.9.0
       - name: Create Version Tag
